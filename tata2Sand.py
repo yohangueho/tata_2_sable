@@ -16,8 +16,8 @@ import time
 
 ### VARIABLES ###
 
-height = 400
-width = 400
+height = 500
+width = 500
 
 
 ### PROGRAMME ###
