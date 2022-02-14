@@ -16,8 +16,8 @@ import time
 
 ### VARIABLES ###
 
-''' à définir plus tard 
-'''
+''' à définir plus tard '''
 
 
 ### PROGRAMME ###
+
