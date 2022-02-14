@@ -9,7 +9,7 @@
 
 ### MODULES ###
 
-import tkinter as tk
+from tkinter import *
 import random as rd
 import time
 
@@ -22,15 +22,14 @@ width = 400
 
 ### PROGRAMME ###
 
-root = tk.Tk()
+root = Tk()
 root.title("tata 2 sable")
-canvas = tk.Canvas(root, height=height, width=width)
-label = tk.Label(root, text="Hello World!")
-bouton = tk.Button(root, text="hello")
+root.geometry('{}x{}'.format(height,width))
+canvas = Canvas(root, height=height, width=width)
+label = Label(root, text="Reconfiguration")
+bouton = Button(root, text="Go!")
 
-
-canvas.pack()
-label.pack()
-bouton.pack()
+label.grid(row=0)
+bouton.grid(row=1)
 
 root.mainloop()
