@@ -16,7 +16,21 @@ import time
 
 ### VARIABLES ###
 
-''' à définir plus tard '''
+height = 400
+width = 400
 
 
 ### PROGRAMME ###
+
+root = tk.Tk()
+root.title("tata 2 sable")
+canvas = tk.Canvas(root, height=height, width=width)
+label = tk.Label(root, text="Hello World!")
+bouton = tk.Button(root, text="hello")
+
+
+canvas.pack()
+label.pack()
+bouton.pack()
+
+root.mainloop()
