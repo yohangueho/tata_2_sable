@@ -1,3 +1,21 @@
-# TATA 2 SAND PROJECT
+#########################################
+# GROUPE 7
+# Yohan GUÉHO
+# Yanis TAIBI
+# etc...
 
-print("Hello Wolrd!")
+# https://github.com/uvsq-info/l1-python
+#########################################
+
+
+### MODULES ###
+
+from tkinter import *
+import time
+
+
+### VARIABLES ###
+
+''' à définir plus tard'''
+
+
