@@ -9,12 +9,14 @@
 
 ### MODULES ###
 
-from tkinter import *
+import tkinter as tk
+import random as rd
 import time
 
 
 ### VARIABLES ###
 
-''' à définir plus tard'''
+''' à définir plus tard '''
 
 
+### PROGRAMME ###
