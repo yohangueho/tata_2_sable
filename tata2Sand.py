@@ -2,8 +2,7 @@
 # GROUPE 7
 # Yohan GUÉHO
 # Yanis TAIBI
-# etc...
-
+# Mariam TROADEC-SAMOUR
 # https://github.com/uvsq-info/l1-python
 #########################################
 
