@@ -25,13 +25,11 @@ width = 500
 def close():
     root.destroy()
 
-def ecoulement(ecoulement):
-    i = 0
-    for i in range (0,20):
-        text="grain"
-        ecoulement = tk.Label(root, text=text)
+def ecoulement():
+    for _ in range (0,10):
+        ecoulement = tk.Label(root, text="grain")
         ecoulement.pack()
-        i += 1
+        time.sleep(1)
 
 root = tk.Tk()
 canvas = tk.Canvas(root, height=height, width=width)
@@ -47,4 +45,5 @@ bouton.pack(anchor=tk.CENTER, side=tk.BOTTOM)
 Bclose = tk.Button(root, text="Close", command=close)
 Bclose.pack(anchor=tk.CENTER, side=tk.BOTTOM)
 
+ecoulement()
 root.mainloop()
